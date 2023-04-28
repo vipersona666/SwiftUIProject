@@ -21,6 +21,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("Profile")
+                    
                 }
 
             PlayerView()
