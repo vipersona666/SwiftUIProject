@@ -140,6 +140,7 @@ struct VideoView: View {
             Text("Header")
                 .fontWeight(.bold)
                 .font(.largeTitle)
+                .foregroundColor(.blue)
             
             Text("Regular text")
                 .fontWeight(.regular)
