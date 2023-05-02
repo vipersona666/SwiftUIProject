@@ -53,7 +53,6 @@ struct FeedView: View {
        
              VStack{
                  Form(){
-
                      Toggle(isOn: $isPushEnable) {
                          Text ("Push enable")
                      }
@@ -73,7 +72,6 @@ struct FeedView: View {
                          }
      
                      Button(action:{}){
-     
                          Text("Button")
                              .bold()
                              .font(Font.custom("Helvetica Neue", size: 24.0))
@@ -104,9 +102,9 @@ struct ProfileView: View {
                         .textFieldStyle(.roundedBorder)
                     SecureField("Password", text: $password)
                         .textFieldStyle(.roundedBorder)
-                        
                 }
                 .padding(40)
+            
             Button(action:{}){
 
                 Text("Button")
@@ -118,9 +116,7 @@ struct ProfileView: View {
                     .background(.blue)
                     .cornerRadius(12)
             }
-           
         }
-        
     }
 }
 struct PlayerView: View {
