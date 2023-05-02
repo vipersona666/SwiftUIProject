@@ -140,6 +140,7 @@ struct VideoView: View {
             Text("Header")
                 .fontWeight(.bold)
                 .font(.largeTitle)
+                .foregroundColor(.blue)
             
             Text("Regular text")
                 .fontWeight(.regular)
@@ -147,7 +148,6 @@ struct VideoView: View {
         }
     }
 }
-
 struct RecorderView: View {
     var body: some View {
         VStack {
@@ -165,7 +165,6 @@ struct Universe: Identifiable{
     @State var id: String
     @State var name: String
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
