@@ -166,7 +166,6 @@ struct Universe: Identifiable{
     @State var id: String
     @State var name: String
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
