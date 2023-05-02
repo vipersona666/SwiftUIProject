@@ -148,7 +148,6 @@ struct VideoView: View {
         }
     }
 }
-
 struct RecorderView: View {
     var body: some View {
         VStack {
